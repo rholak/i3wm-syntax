@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?> 
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version='1.0'>
   <dict>
@@ -21,13 +21,18 @@
         <key>name</key>
         <string>criteria</string>
         <key>match</key>
-        <string>\[(.*)\]</string>
+        <string>\[(\w+)=(\&quot;.*\&quot;)\]</string>
         <key>captures</key>
         <dict>
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>constant.string.i3wm_config</string>
+            <string>constant.language.i3wm_config</string>
+          </dict>
+          <key>2</key>
+          <dict>
+            <key>name</key>
+            <string>string.i3wm_config</string>
           </dict>
         </dict>
       </dict>
@@ -92,7 +97,7 @@
         <key>name</key>
         <string>fullscreen</string>
         <key>match</key>
-        <string>(fullscreen)</string>
+        <string>(fullscreen)\s*(toggle)?</string>
         <key>captures</key>
         <dict>
           <key>1</key>
@@ -103,7 +108,7 @@
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.string.i3wm_config</string>
+            <string>constant.language.i3wm_config</string>
           </dict>
         </dict>
       </dict>
@@ -122,7 +127,7 @@
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>meta.scope.variable.other.i3wm_config</string>
+            <string>variable.other.i3wm_config</string>
           </dict>
         </dict>
       </dict>
@@ -264,7 +269,7 @@
         <key>name</key>
         <string>for_window</string>
         <key>match</key>
-        <string>(for_window)\s*\[(\w*)=([\&quot;\w\s\:\~\/\$]*\])\s*</string>
+        <string>(for_window)\s*\[(\w+)=(\&quot;.*\&quot;)\]\s*</string>
         <key>captures</key>
         <dict>
           <key>1</key>
@@ -280,7 +285,7 @@
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.string.i3wm_config</string>
+            <string>string.i3wm_config</string>
           </dict>
         </dict>
       </dict>
@@ -336,7 +341,7 @@
         <key>name</key>
         <string>assign</string>
         <key>match</key>
-        <string>(assign)\s*\[(.*)]\s*(→)?\s*([\w\d]*)</string>
+        <string>(assign)\s*\[(\w+)=(\&quot;.*\&quot;)\]\s*(→)?\s*([\w\d]*)</string>
         <key>captures</key>
         <dict>
           <key>1</key>
@@ -347,14 +352,19 @@
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.string.i3wm_config</string>
+            <string>constant.language.i3wm_config</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>keyword.operator.i3wm_config</string>
+            <string>string.i3wm_config</string>
           </dict>
           <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>keyword.operator.i3wm_config</string>
+          </dict>
+          <key>5</key>
           <dict>
             <key>name</key>
             <string>constant.language.i3wm_config</string>
@@ -381,7 +391,7 @@
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.string.i3wm_config</string>
+            <string>source.i3wm_config</string>
           </dict>
         </dict>
       </dict>
@@ -405,7 +415,7 @@
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.string.i3wm_config</string>
+            <string>source.i3wm_config</string>
           </dict>
         </dict>
       </dict>
@@ -413,7 +423,7 @@
         <key>name</key>
         <string>client_focused1</string>
         <key>match</key>
-        <string>(client\.focused)\s*(#\w{6})\s*(#\w{6})\s*(#\w{6})\s*(#\w{6})</string>
+        <string>(client\.focused)\s*(#\w{6})\s*(#\w{6})\s*(#\w{6})\s*(#\w{6})\s*(#\w{6})</string>
         <key>captures</key>
         <dict>
           <key>1</key>
@@ -437,6 +447,11 @@
             <string>constant.other.i3wm_config</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>constant.other.i3wm_config</string>
+          </dict>
+          <key>6</key>
           <dict>
             <key>name</key>
             <string>constant.other.i3wm_config</string>
@@ -447,7 +462,7 @@
         <key>name</key>
         <string>client_focused2</string>
         <key>match</key>
-        <string>(client\.focused)\s*(\$\w*)\s*(\$\w*)\s*(\$\w*)\s*(\$\w*)</string>
+        <string>(client\.focused)\s*(\$\w*)\s*(\$\w*)\s*(\$\w*)\s*(\$\w*)\s*(\$\w*)</string>
         <key>captures</key>
         <dict>
           <key>1</key>
@@ -471,6 +486,11 @@
             <string>variable.other.i3wm_config</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>variable.other.i3wm_config</string>
+          </dict>
+          <key>6</key>
           <dict>
             <key>name</key>
             <string>variable.other.i3wm_config</string>
@@ -481,7 +501,7 @@
         <key>name</key>
         <string>client_focused_inactive1</string>
         <key>match</key>
-        <string>(client\.focused_inactive)\s*(#\w{6})\s*(#\w{6})\s*(#\w{6})\s*(#\w{6})</string>
+        <string>(client\.focused_inactive)\s*(#\w{6})\s*(#\w{6})\s*(#\w{6})\s*(#\w{6})\s*(#\w{6})</string>
         <key>captures</key>
         <dict>
           <key>1</key>
@@ -505,6 +525,11 @@
             <string>constant.other.i3wm_config</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>constant.other.i3wm_config</string>
+          </dict>
+          <key>6</key>
           <dict>
             <key>name</key>
             <string>constant.other.i3wm_config</string>
@@ -515,7 +540,7 @@
         <key>name</key>
         <string>client_focused_inactive2</string>
         <key>match</key>
-        <string>(client\.focused_inactive)\s*(\$\w*)\s*(\$\w*)\s*(\$\w*)\s*(\$\w*)</string>
+        <string>(client\.focused_inactive)\s*(\$\w*)\s*(\$\w*)\s*(\$\w*)\s*(\$\w*)\s*(\$\w*)</string>
         <key>captures</key>
         <dict>
           <key>1</key>
@@ -539,6 +564,11 @@
             <string>variable.other.i3wm_config</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>variable.other.i3wm_config</string>
+          </dict>
+          <key>6</key>
           <dict>
             <key>name</key>
             <string>variable.other.i3wm_config</string>
@@ -549,7 +579,7 @@
         <key>name</key>
         <string>client_unfocused1</string>
         <key>match</key>
-        <string>(client\.unfocused)\s*(#\w{6})\s*(#\w{6})\s*(#\w{6})\s*(#\w{6})</string>
+        <string>(client\.unfocused)\s*(#\w{6})\s*(#\w{6})\s*(#\w{6})\s*(#\w{6})\s*(#\w{6})</string>
         <key>captures</key>
         <dict>
           <key>1</key>
@@ -573,6 +603,11 @@
             <string>constant.other.i3wm_config</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>constant.other.i3wm_config</string>
+          </dict>
+          <key>6</key>
           <dict>
             <key>name</key>
             <string>constant.other.i3wm_config</string>
@@ -583,7 +618,7 @@
         <key>name</key>
         <string>client_unfocused2</string>
         <key>match</key>
-        <string>(client\.unfocused)\s*(\$\w*)\s*(\$\w*)\s*(\$\w*)\s*(\$\w*)</string>
+        <string>(client\.unfocused)\s*(\$\w*)\s*(\$\w*)\s*(\$\w*)\s*(\$\w*)\s*(\$\w*)</string>
         <key>captures</key>
         <dict>
           <key>1</key>
@@ -607,6 +642,11 @@
             <string>variable.other.i3wm_config</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>variable.other.i3wm_config</string>
+          </dict>
+          <key>6</key>
           <dict>
             <key>name</key>
             <string>variable.other.i3wm_config</string>
@@ -617,7 +657,7 @@
         <key>name</key>
         <string>client_urgent1</string>
         <key>match</key>
-        <string>(client\.urgent)\s*(#\w{6})\s*(#\w{6})\s*(#\w{6})\s*(#\w{6})</string>
+        <string>(client\.urgent)\s*(#\w{6})\s*(#\w{6})\s*(#\w{6})\s*(#\w{6})\s*(#\w{6})</string>
         <key>captures</key>
         <dict>
           <key>1</key>
@@ -641,6 +681,11 @@
             <string>constant.other.i3wm_config</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>constant.other.i3wm_config</string>
+          </dict>
+          <key>6</key>
           <dict>
             <key>name</key>
             <string>constant.other.i3wm_config</string>
@@ -651,7 +696,7 @@
         <key>name</key>
         <string>client_urgent2</string>
         <key>match</key>
-        <string>(client\.urgent)\s*(\$\w*)\s*(\$\w*)\s*(\$\w*)\s*(\$\w*)</string>
+        <string>(client\.urgent)\s*(\$\w*)\s*(\$\w*)\s*(\$\w*)\s*(\$\w*)\s*(\$\w*)</string>
         <key>captures</key>
         <dict>
           <key>1</key>
@@ -675,6 +720,127 @@
             <string>variable.other.i3wm_config</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>variable.other.i3wm_config</string>
+          </dict>
+          <key>6</key>
+          <dict>
+            <key>name</key>
+            <string>variable.other.i3wm_config</string>
+          </dict>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>client_placeholder1</string>
+        <key>match</key>
+        <string>(client\.placeholder)\s*(#\w{6})\s*(#\w{6})\s*(#\w{6})\s*(#\w{6})\s*(#\w{6})</string>
+        <key>captures</key>
+        <dict>
+          <key>1</key>
+          <dict>
+            <key>name</key>
+            <string>keyword.control.i3wm_config</string>
+          </dict>
+          <key>2</key>
+          <dict>
+            <key>name</key>
+            <string>constant.other.i3wm_config</string>
+          </dict>
+          <key>3</key>
+          <dict>
+            <key>name</key>
+            <string>constant.other.i3wm_config</string>
+          </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>constant.other.i3wm_config</string>
+          </dict>
+          <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>constant.other.i3wm_config</string>
+          </dict>
+          <key>6</key>
+          <dict>
+            <key>name</key>
+            <string>constant.other.i3wm_config</string>
+          </dict>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>client_placeholder2</string>
+        <key>match</key>
+        <string>(client\.placeholder)\s*(\$\w*)\s*(\$\w*)\s*(\$\w*)\s*(\$\w*)\s*(\$\w*)</string>
+        <key>captures</key>
+        <dict>
+          <key>1</key>
+          <dict>
+            <key>name</key>
+            <string>keyword.control.i3wm_config</string>
+          </dict>
+          <key>2</key>
+          <dict>
+            <key>name</key>
+            <string>variable.other.i3wm_config</string>
+          </dict>
+          <key>3</key>
+          <dict>
+            <key>name</key>
+            <string>variable.other.i3wm_config</string>
+          </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>variable.other.i3wm_config</string>
+          </dict>
+          <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>variable.other.i3wm_config</string>
+          </dict>
+          <key>6</key>
+          <dict>
+            <key>name</key>
+            <string>variable.other.i3wm_config</string>
+          </dict>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>client_background1</string>
+        <key>match</key>
+        <string>(client\.background)\s*(#\w{6})</string>
+        <key>captures</key>
+        <dict>
+          <key>1</key>
+          <dict>
+            <key>name</key>
+            <string>keyword.control.i3wm_config</string>
+          </dict>
+          <key>2</key>
+          <dict>
+            <key>name</key>
+            <string>constant.other.i3wm_config</string>
+          </dict>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>client_background2</string>
+        <key>match</key>
+        <string>(client\.background)\s*(\$\w*)</string>
+        <key>captures</key>
+        <dict>
+          <key>1</key>
+          <dict>
+            <key>name</key>
+            <string>keyword.control.i3wm_config</string>
+          </dict>
+          <key>2</key>
           <dict>
             <key>name</key>
             <string>variable.other.i3wm_config</string>
@@ -696,7 +862,7 @@
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.string.i3wm_config</string>
+            <string>string.i3wm_config</string>
           </dict>
         </dict>
       </dict>
@@ -1052,7 +1218,7 @@
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>meta.scope.block.i3wm_config</string>
+            <string>block.i3wm_config</string>
           </dict>
         </dict>
       </dict>
@@ -1198,6 +1364,11 @@
             <key>name</key>
             <string>variable.other.i3wm_config</string>
           </dict>
+          <key>6</key>
+          <dict>
+            <key>name</key>
+            <string>variable.other.i3wm_config</string>
+          </dict>
         </dict>
       </dict>
       <dict>
@@ -1262,6 +1433,11 @@
             <string>variable.other.i3wm_config</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>variable.other.i3wm_config</string>
+          </dict>
+          <key>6</key>
           <dict>
             <key>name</key>
             <string>variable.other.i3wm_config</string>
@@ -1334,6 +1510,11 @@
             <key>name</key>
             <string>variable.other.i3wm_config</string>
           </dict>
+          <key>6</key>
+          <dict>
+            <key>name</key>
+            <string>variable.other.i3wm_config</string>
+          </dict>
         </dict>
       </dict>
       <dict>
@@ -1402,6 +1583,11 @@
             <key>name</key>
             <string>variable.other.i3wm_config</string>
           </dict>
+          <key>6</key>
+          <dict>
+            <key>name</key>
+            <string>variable.other.i3wm_config</string>
+          </dict>
         </dict>
       </dict>
       <dict>
@@ -1448,7 +1634,7 @@
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>meta.scope.variable.other.i3wm_config</string>
+            <string>variable.other.i3wm_config</string>
           </dict>
         </dict>
       </dict>
@@ -1511,9 +1697,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>floating_toggle</string>
+        <string>floating</string>
         <key>match</key>
-        <string>(floating toggle)</string>
+        <string>(floating)\s*(toggle|enable)</string>
         <key>captures</key>
         <dict>
           <key>1</key>
@@ -1552,6 +1738,25 @@
         <string>focus_output</string>
         <key>match</key>
         <string>(focus output)\s*(left|right|down|up|l|r|d|u|(?:[-\w]*))</string>
+        <key>captures</key>
+        <dict>
+          <key>1</key>
+          <dict>
+            <key>name</key>
+            <string>keyword.control.i3wm_config</string>
+          </dict>
+          <key>2</key>
+          <dict>
+            <key>name</key>
+            <string>constant.language.i3wm_config</string>
+          </dict>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>sticky</string>
+        <key>match</key>
+        <string>(sticky)\s*(enable)</string>
         <key>captures</key>
         <dict>
           <key>1</key>
@@ -1822,6 +2027,11 @@
             <key>name</key>
             <string>variable.other.i3wm_config</string>
           </dict>
+          <key>6</key>
+          <dict>
+            <key>name</key>
+            <string>variable.other.i3wm_config</string>
+          </dict>
         </dict>
       </dict>
       <dict>
@@ -1896,7 +2106,7 @@
         <key>name</key>
         <string>resize_mode</string>
         <key>match</key>
-        <string>(mode)\s*\&quot;(resize)\&quot;\s*(.*)</string>
+        <string>(mode)\s*(\&quot;resize\&quot;)\s*(.*)</string>
         <key>captures</key>
         <dict>
           <key>1</key>
@@ -1907,7 +2117,7 @@
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.stirng.i3wm_config</string>
+            <string>string.i3wm_config</string>
           </dict>
         </dict>
       </dict>
@@ -1962,9 +2172,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>resize_mode_default</string>
+        <string>resize_set</string>
         <key>match</key>
-        <string>(mode)\s*\&quot;(default)\&quot;</string>
+        <string>(resize)\s*(set)\s*(\d+)\s*(px)?\s*(\d+)\s*(px)?</string>
         <key>captures</key>
         <dict>
           <key>1</key>
@@ -1975,7 +2185,46 @@
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.stirng.i3wm_config</string>
+            <string>constant.language.i3wm_config</string>
+          </dict>
+          <key>3</key>
+          <dict>
+            <key>name</key>
+            <string>constant.numeric.i3wm_config</string>
+          </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>constant.language.i3wm_config</string>
+          </dict>
+          <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>constant.numeric.i3wm_config</string>
+          </dict>
+          <key>6</key>
+          <dict>
+            <key>name</key>
+            <string>constant.language.i3wm_config</string>
+          </dict>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>resize_mode_default</string>
+        <key>match</key>
+        <string>(mode)\s*(\&quot;default\&quot;)</string>
+        <key>captures</key>
+        <dict>
+          <key>1</key>
+          <dict>
+            <key>name</key>
+            <string>keyword.control.i3wm_config</string>
+          </dict>
+          <key>2</key>
+          <dict>
+            <key>name</key>
+            <string>string.i3wm_config</string>
           </dict>
         </dict>
       </dict>
@@ -2016,7 +2265,7 @@
         <key>name</key>
         <string>border</string>
         <key>match</key>
-        <string>(border)\s*(normal|none|(?:(\d*)\s*pixel))</string>
+        <string>(border)\s*(none|toggle|(\d+)\s*pixel|(?:pixel|normal)\s*(\d+))</string>
         <key>captures</key>
         <dict>
           <key>1</key>
@@ -2028,6 +2277,11 @@
           <dict>
             <key>name</key>
             <string>constant.language.i3wm_config</string>
+          </dict>
+          <key>3</key>
+          <dict>
+            <key>name</key>
+            <string>constant.numeric.i3wm_config</string>
           </dict>
         </dict>
       </dict>
@@ -2204,6 +2458,57 @@
           <dict>
             <key>name</key>
             <string>constant.language.i3wm_config</string>
+          </dict>
+        </dict>
+      </dict>
+      <!-- gaps inner <px>
+           gaps outer <px> -->
+      <dict>
+        <key>name</key>
+        <string>gaps</string>
+        <key>match</key>
+        <string>(gaps)\s*(inner|outer)\s*(\d+)</string>
+        <key>captures</key>
+        <dict>
+          <key>1</key>
+          <dict>
+            <key>name</key>
+            <string>keyword.control.i3wm_config</string>
+          </dict>
+          <key>2</key>
+          <dict>
+            <key>name</key>
+            <string>constant.language.i3wm_config</string>
+          </dict>
+          <key>3</key>
+          <dict>
+            <key>name</key>
+            <string>constant.numeric.i3wm_config</string>
+          </dict>
+        </dict>
+      </dict>
+      <!-- gaps inner|outer current|all set|plus|minus <px> -->
+      <dict>
+        <key>name</key>
+        <string>gaps_full</string>
+        <key>match</key>
+        <string>(gaps)\s*(inner|outer)\s*(current|all)?\s*(set|plus|minus)?\s*(\d+)</string>
+        <key>captures</key>
+        <dict>
+          <key>1</key>
+          <dict>
+            <key>name</key>
+            <string>keyword.control.i3wm_config</string>
+          </dict>
+          <key>2</key>
+          <dict>
+            <key>name</key>
+            <string>constant.language.i3wm_config</string>
+          </dict>
+          <key>3</key>
+          <dict>
+            <key>name</key>
+            <string>constant.numeric.i3wm_config</string>
           </dict>
         </dict>
       </dict>
