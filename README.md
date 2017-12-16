@@ -5,7 +5,7 @@
 [![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/r/dcasella.i3wm-syntax.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=dcasella.i3wm-syntax)
 
 Syntax definition for the i3wm configuration file for Sublime Text 3 and Visual Studio Code.  
-Feel free to open GitHub Issues to report any problem with the color scheme or submit suggestions.
+Feel free to open GitHub Issues to report any problem with the syntax definition or submit suggestions.
 
 ## Installation
 
