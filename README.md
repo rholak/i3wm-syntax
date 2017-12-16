@@ -43,7 +43,7 @@ Write `ext install dcasella.i3wm-syntax`
 
 ## Screenshots
 
-Sublime Text 3 example config
+Sublime Text 3 example config (Theme [Monokai++](https://github.com/dcasella/monokai-plusplus))
 
 ![ST3 Screenshot](screenshotst3.png)
 
