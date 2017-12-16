@@ -48,9 +48,9 @@ Write `ext install dcasella.i3`
 Using [ApplySyntax](https://packagecontrol.io/packages/ApplySyntax).  
 Add to your ApplySyntax User Settings:
 
-```json
+```
 "syntaxes": [
-    // ...
+    ...
     {
         "syntax": "i3wm-syntax/syntaxes/i3",
         "rules": [
@@ -58,7 +58,6 @@ Add to your ApplySyntax User Settings:
             { "file_path": ".*/i3/config$" }
         ]
     }
-    // ...
 ]
 ```
 
@@ -66,12 +65,11 @@ Add to your ApplySyntax User Settings:
 
 Add to your User Settings:
 
-```json
+```
 "files.associations": {
-    // ...
+    ...
     "**/.i3/config": "i3",
-    "**/i3/config": "i3",
-    // ...
+    "**/i3/config": "i3"
 },
 ```
 

@@ -12,11 +12,7 @@
     ],
     "keywords": [
         "i3",
-        "i3wm",
-        "i3 syntax",
-        "i3wm syntax",
-        "i3 config",
-        "i3wm config"
+        "i3wm"
     ],
     "contributes": {
         "languages": [
