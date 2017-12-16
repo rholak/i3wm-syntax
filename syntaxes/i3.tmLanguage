@@ -3,15 +3,15 @@
 <plist version='1.0'>
   <dict>
     <key>name</key>
-    <string>i3-wm Syntax</string>
+    <string>i3</string>
     <key>author</key>
     <string>skk</string>
     <key>scopeName</key>
-    <string>source.i3wm-syntax</string>
+    <string>source.i3</string>
     <key>fileTypes</key>
     <array>
+      <string>.i3/config</string>
       <string>i3/config</string>
-      <string>config</string>
     </array>
     <key>uuid</key>
     <string>bb9ebd33-1b88-4310-acef-41720bcac38f</string>
@@ -27,12 +27,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>string.i3wm-syntax</string>
+            <string>string.i3</string>
           </dict>
         </dict>
       </dict>
@@ -46,12 +46,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>comment.line.number-sign.i3wm-syntax</string>
+            <string>comment.line.number-sign.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>comment.line.i3wm-syntax</string>
+            <string>comment.line.i3</string>
           </dict>
         </dict>
       </dict>
@@ -65,12 +65,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -84,12 +84,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -103,12 +103,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -122,12 +122,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
         </dict>
       </dict>
@@ -141,22 +141,22 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.numeric.i3wm-syntax</string>
+            <string>constant.numeric.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>constant.numeric.i3wm-syntax</string>
+            <string>constant.numeric.i3</string>
           </dict>
         </dict>
       </dict>
@@ -170,22 +170,22 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.numeric.i3wm-syntax</string>
+            <string>constant.numeric.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>constant.numeric.i3wm-syntax</string>
+            <string>constant.numeric.i3</string>
           </dict>
         </dict>
       </dict>
@@ -199,12 +199,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -218,12 +218,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -237,12 +237,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -256,12 +256,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -275,17 +275,17 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>string.i3wm-syntax</string>
+            <string>string.i3</string>
           </dict>
         </dict>
       </dict>
@@ -299,17 +299,17 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -323,17 +323,17 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
         </dict>
       </dict>
@@ -347,27 +347,27 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>string.i3wm-syntax</string>
+            <string>string.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>keyword.operator.i3wm-syntax</string>
+            <string>keyword.operator.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -381,17 +381,17 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>source.i3wm-syntax</string>
+            <string>source.i3</string>
           </dict>
         </dict>
       </dict>
@@ -405,17 +405,17 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>source.i3wm-syntax</string>
+            <string>source.i3</string>
           </dict>
         </dict>
       </dict>
@@ -429,32 +429,32 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
           <key>6</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
         </dict>
       </dict>
@@ -468,32 +468,32 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>6</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
         </dict>
       </dict>
@@ -507,32 +507,32 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
           <key>6</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
         </dict>
       </dict>
@@ -546,32 +546,32 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>6</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
         </dict>
       </dict>
@@ -585,32 +585,32 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
           <key>6</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
         </dict>
       </dict>
@@ -624,32 +624,32 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>6</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
         </dict>
       </dict>
@@ -663,32 +663,32 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
           <key>6</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
         </dict>
       </dict>
@@ -702,32 +702,32 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>6</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
         </dict>
       </dict>
@@ -741,32 +741,32 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
           <key>6</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
         </dict>
       </dict>
@@ -780,32 +780,32 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>6</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
         </dict>
       </dict>
@@ -819,12 +819,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.other.i3wm-syntax</string>
+            <string>constant.other.i3</string>
           </dict>
         </dict>
       </dict>
@@ -838,12 +838,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
         </dict>
       </dict>
@@ -857,12 +857,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>string.i3wm-syntax</string>
+            <string>string.i3</string>
           </dict>
         </dict>
       </dict>
@@ -876,12 +876,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -895,12 +895,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -914,12 +914,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -933,12 +933,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -952,12 +952,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -971,12 +971,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -990,12 +990,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.numeric.i3wm-syntax</string>
+            <string>constant.numeric.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1009,7 +1009,7 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1023,12 +1023,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1042,12 +1042,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1061,12 +1061,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1080,12 +1080,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1099,12 +1099,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1118,12 +1118,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1137,12 +1137,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1156,12 +1156,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1175,12 +1175,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1194,12 +1194,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1213,12 +1213,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>block.i3wm-syntax</string>
+            <string>block.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1232,12 +1232,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1251,12 +1251,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1270,12 +1270,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1289,12 +1289,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1308,27 +1308,27 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1342,32 +1342,32 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>6</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1381,27 +1381,27 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1415,32 +1415,32 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>6</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1454,27 +1454,27 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1488,32 +1488,32 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>6</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1527,27 +1527,27 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1561,32 +1561,32 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>6</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1600,17 +1600,17 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.numeric.i3wm-syntax</string>
+            <string>constant.numeric.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1624,17 +1624,17 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1648,12 +1648,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1667,12 +1667,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1686,12 +1686,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1705,12 +1705,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1724,12 +1724,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1743,12 +1743,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1762,12 +1762,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1781,32 +1781,32 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.numeric.i3wm-syntax</string>
+            <string>constant.numeric.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>constant.numeric.i3wm-syntax</string>
+            <string>constant.numeric.i3</string>
           </dict>
           <key>6</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1820,62 +1820,62 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>constant.numeric.i3wm-syntax</string>
+            <string>constant.numeric.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>6</key>
           <dict>
             <key>name</key>
-            <string>constant.numeric.i3wm-syntax</string>
+            <string>constant.numeric.i3</string>
           </dict>
           <key>7</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>8</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>9</key>
           <dict>
             <key>name</key>
-            <string>constant.numeric.i3wm-syntax</string>
+            <string>constant.numeric.i3</string>
           </dict>
           <key>10</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>11</key>
           <dict>
             <key>name</key>
-            <string>constant.numeric.i3wm-syntax</string>
+            <string>constant.numeric.i3</string>
           </dict>
           <key>12</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1889,12 +1889,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1908,27 +1908,27 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1942,27 +1942,27 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -1976,22 +1976,22 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
         </dict>
       </dict>
@@ -2005,32 +2005,32 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>6</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
         </dict>
       </dict>
@@ -2044,32 +2044,32 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>constant.numeric.i3wm-syntax</string>
+            <string>constant.numeric.i3</string>
           </dict>
           <key>6</key>
           <dict>
             <key>name</key>
-            <string>variable.other.i3wm-syntax</string>
+            <string>variable.other.i3</string>
           </dict>
         </dict>
       </dict>
@@ -2083,22 +2083,22 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -2112,12 +2112,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>string.i3wm-syntax</string>
+            <string>string.i3</string>
           </dict>
         </dict>
       </dict>
@@ -2131,42 +2131,42 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>constant.numeric.i3wm-syntax</string>
+            <string>constant.numeric.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>6</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>7</key>
           <dict>
             <key>name</key>
-            <string>constant.numeric.i3wm-syntax</string>
+            <string>constant.numeric.i3</string>
           </dict>
           <key>8</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -2180,32 +2180,32 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.numeric.i3wm-syntax</string>
+            <string>constant.numeric.i3</string>
           </dict>
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>constant.numeric.i3wm-syntax</string>
+            <string>constant.numeric.i3</string>
           </dict>
           <key>6</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -2219,12 +2219,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>string.i3wm-syntax</string>
+            <string>string.i3</string>
           </dict>
         </dict>
       </dict>
@@ -2238,7 +2238,7 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
         </dict>
       </dict>
@@ -2252,12 +2252,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -2271,17 +2271,17 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.numeric.i3wm-syntax</string>
+            <string>constant.numeric.i3</string>
           </dict>
         </dict>
       </dict>
@@ -2295,17 +2295,17 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.numeric.i3wm-syntax</string>
+            <string>constant.numeric.i3</string>
           </dict>
         </dict>
       </dict>
@@ -2319,17 +2319,17 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.numeric.i3wm-syntax</string>
+            <string>constant.numeric.i3</string>
           </dict>
         </dict>
       </dict>
@@ -2343,7 +2343,7 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
         </dict>
       </dict>
@@ -2357,7 +2357,7 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
         </dict>
       </dict>
@@ -2371,7 +2371,7 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
         </dict>
       </dict>
@@ -2385,12 +2385,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
         </dict>
       </dict>
@@ -2404,12 +2404,12 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
         </dict>
       </dict>
@@ -2423,17 +2423,17 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -2447,17 +2447,17 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
         </dict>
       </dict>
@@ -2473,17 +2473,17 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.numeric.i3wm-syntax</string>
+            <string>constant.numeric.i3</string>
           </dict>
         </dict>
       </dict>
@@ -2498,17 +2498,17 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.i3wm-syntax</string>
+            <string>keyword.control.i3</string>
           </dict>
           <key>2</key>
           <dict>
             <key>name</key>
-            <string>constant.language.i3wm-syntax</string>
+            <string>constant.language.i3</string>
           </dict>
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>constant.numeric.i3wm-syntax</string>
+            <string>constant.numeric.i3</string>
           </dict>
         </dict>
       </dict>
