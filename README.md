@@ -39,7 +39,7 @@ Click Install
 **Option 2:**
 
 <kbd>Ctrl</kbd>/<kbd>Command</kbd>+<kbd>P</kbd> to launch the command palette  
-Write `ext install i3wm-syntax`
+Write `ext install dcasella.i3wm-syntax`
 
 ## Screenshots
 
