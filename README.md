@@ -1,58 +1,37 @@
-<!--  Copyright 2013 Steven K Knight <steven@knight.cx>
+# i3wm Syntax
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
-
- -->
-
-# [i3 wm] Syntax Highlighting for Sublime Text 2/3
+Syntax definition for the i3wm configuration file for Sublime Text 3 and Visual Studio Code.  
+Feel free to open GitHub Issues to report any problem with the color scheme or submit suggestions.
 
 ## Installation
 
-### With Package Control
+### Sublime Text 3
 
-If you have Package Control package installed, you can install i3wm-sublime from inside Sublime Text itself. Open the Command Palette and select “Package Control: Install Package”, then search for i3wm.
+**Not available on the official Package Control channel** at the moment, use [i3wm-sublime](https://github.com/skk/i3wm-sublime) if you don't feel like adding the repository or manually installing this package.
 
-### Without Package Control
+**Add this Repository:**
 
-If you want to edit/improve the i3wm-sublime package, this is how you should install it—otherwise, Package Control may overwrite your changes.
+<kbd>Ctrl</kbd>/<kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> to open the Command Palette  
+Select `Package Control: Add Repository`  
+Insert the URL `https://github.com/dcasella/i3wm-syntax`  
+Press <kbd>Enter</kbd>  
+<kbd>Ctrl</kbd>/<kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> to open the Command Palette  
+Select `Package Control: Install Package`  
+Search for `i3wm-syntax`  
+Press <kbd>Enter</kbd>
 
-Clone this repository into your Packages folder:
+**Manual:**
 
-git clone git://github.com/skk/i3wm-sublime.git 'i3wm-sublime'
+`git clone https://github.com/dcasella/i3wm-syntax.git <YourPackagesFolder>`
 
-## File Types Supported
+## Screenshots
 
-* i3 wm's config file
+Sublime Text 3 example config
 
-## Features
+![ST3 Screenshot](screenshotst3.png)
 
-Currently, the package only implements basic syntax highlighting for i3wm's config file. Pull requests are welcome!
-Next on my list is adding support for i3wm's status bar config file.
+## Credits
 
-## License
+Forked from [i3wm-sublime](https://github.com/skk/i3wm-sublime) made by [skk](https://github.com/skk).
 
-See LICENSE.txt
-
-## Contact
-
-email: steven@knight.cx
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (git checkout -b my-new-feature)
-3. Commit your changes (git commit -am 'Add some feature')
-4. Push to the branch (git push origin my-new-feature)
-5. Create new Pull Request
-
-[i3 wm]: http://i3wm.org/ "i3 wm Home Page"
+[i3 tiling window manager](http://i3wm.org).
