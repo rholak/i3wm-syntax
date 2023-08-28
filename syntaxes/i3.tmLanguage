@@ -269,7 +269,7 @@
         <key>name</key>
         <string>for_window</string>
         <key>match</key>
-        <string>(for_window)\s*\[(\w+)=(\&quot;.*\&quot;)\]\s*</string>
+        <string>(for_window)\s*\[(\w+)(=(\&quot;.*\&quot;))?\]\s*</string>
         <key>captures</key>
         <dict>
           <key>1</key>
